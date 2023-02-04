@@ -1,0 +1,24 @@
+.header-layout {
+  width: 100%;
+  height: 64px;
+  background: pink;
+  position: fixed;
+  top: 0;
+
+  .header-content {
+    width: 80%;
+    height: 100%;
+    background: lightsalmon;
+    margin: 0 auto;
+    display: flex;
+
+    .header-logo {
+      flex: 1;
+      background: lightgoldenrodyellow;
+    }
+
+    .header-menu {
+      flex: 10;
+    }
+  }
+}
