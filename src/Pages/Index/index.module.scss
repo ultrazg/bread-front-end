@@ -1,0 +1,12 @@
+@import '../../assets/Styles/global';
+
+.content-layout {
+  margin-top: 64px;
+  height: 2000px;
+
+  .content {
+    width: 80%;
+    margin: 0 auto;
+    background: lightcyan;
+  }
+}
